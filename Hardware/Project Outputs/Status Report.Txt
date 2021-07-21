@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of PCB Document [ARMBoard.PcbDoc]
+   Generated File[Bill of Materials-ARMBoard.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 16:19:03 On 23/04/2021

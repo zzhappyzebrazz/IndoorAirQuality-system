@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\user\Documents\Altium18\hppzbr\ARMBoard.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=armboard-roundholes-plated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Plated_Slot_Holes|DrillFile=armboard-slotholes-plated.txt|DrillLayers=gtl,gbl
