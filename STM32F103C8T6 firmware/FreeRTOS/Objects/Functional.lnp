@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+".\objects\stm32f10x_it.o"
+".\objects\system_stm32f10x.o"
+".\objects\main.o"
+".\objects\stm32f10x_systick.o"
+".\objects\uart.o"
+".\objects\misc.o"
+".\objects\delay.o"
+".\objects\ccs811.o"
+".\objects\adc.o"
+".\objects\kalman.o"
+".\objects\startup_stm32f10x_md.o"
+".\objects\stm32f10x_gpio.o"
+".\objects\stm32f10x_rcc.o"
+".\objects\stm32f10x_dma_1.o"
+".\objects\stm32f10x_i2c.o"
+".\objects\stm32f10x_usart.o"
+".\objects\stm32f10x_tim.o"
+".\objects\stm32f10x_adc.o"
+--strict --scatter ".\Objects\Functional.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Functional.map" -o .\Objects\Functional.axf

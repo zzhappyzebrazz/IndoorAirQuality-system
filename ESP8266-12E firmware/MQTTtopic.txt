@@ -1,0 +1,7 @@
+  device1 clientID = clientId-vBfbWRr4qq
+  device2 clientID = clientId-WFLbiZieFy
+  device3 clientID = clientId-A6Qzrw3o9R
+
+"myHiveMQ/device3/topic"
+"myHiveMQ/device1/topic"
+"myHiveMQ/device2/topic"

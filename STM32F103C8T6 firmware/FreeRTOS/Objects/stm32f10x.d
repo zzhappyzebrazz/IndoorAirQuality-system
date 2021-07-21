@@ -1,0 +1,1 @@
+.\objects\stm32f10x.o: ..\FreeRTOSv202104.00\FreeRTOS\Demo\CORTEX_STM32F103_Keil\STM32F10x.s

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+   <head>
+<!-- The name of the web page-->
+      <title>Indoor Air Quality monitoring</title>
+      <link rel="stylesheet" href='../static/style.css'/>
+   </head>
+   <body>
+	<center>
+<!--     Header of the site-->
+	<h1>Indoor Air Quality monitoring</h1>
+	<div style="text-align: center;">
+	<h3> DEVICE 1 </h3>
+	<div style="text-align: center;">
+	<h3> Dust density <meter value= {{ Dust }} min="0" max="604" id="dust_meter"> {{Dust}} out of 500</meter>  {{ Dust  }} ug/m3</h3>
+	<div style="text-align: center;">
+	<h3> AirQualityIndex = {{AQI}} {{AQIrating}} </h3>
+	<div style="text-align: center;">
+	<h3> eCO2  <meter value={{eCO2}} min="0" max="5000" id="ppm_meter"></meter>  {{ eCO2  }} ppm {{CO2rating}}</h3>
+	<div style="text-align: center;">
+	<h3> eTVOC <meter value={{eTVOC}} min="0" max="500" id="bpm_meter"></meter>  {{ eTVOC }} ppm {{TVOCrating}}</h3> 
+	<hr>
+	<div style="text-align: center;">
+	<h3> Last Sensors Reading: {{ time }} ==> <a href="/"class="button">REFRESH</a></h3>	
+	<hr>
+	<h3> HISTORICAL DATA </h3>
+	<p> Enter number of samples to retrieve:
+	<form method="POST">
+		<input name="numSamples" value= {{numSamples}}>
+		<input type="submit">
+		</form></p>
+	<hr>
+	<img src="/plot/Dust" alt="Image Placeholder" width="30%">
+	<img src="/plot/eCO2" alt="Image Placeholder" width="30%">
+	<img src="/plot/eTVOC" alt="Image Placeholder" width="30%">
+	<p> @2021 my thesis Lai Minh Ha DEE.DOE</p>
+   </body>
+</html>
